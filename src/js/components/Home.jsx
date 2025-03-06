@@ -33,6 +33,7 @@ const Home = () => {
 					className={"green light" + (color === "green" ? " glow" : "")}>
 				</div>
 			</div>
+			<p>By <strong>RubenRamirezWeb</strong></p>
 			<button onClick={changeColor} className="button">Clic para cambiar de color</button>
 		</div>
 	);
